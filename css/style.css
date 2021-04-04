@@ -1,0 +1,211 @@
+/*------ Hoja de estilos ------*/
+
+
+/* reset */
+	a,article,body,div,footer,h1,h2,header,html,img,li,main,nav,p,ul {
+		border:0;
+		margin:0;
+		padding:0;
+	}
+
+	body {
+		background:#F5F5F3; /*Fondo atras*/
+		color:#000;
+		font:100% Verdana, Arial, sans-serif;
+		margin:0 auto;
+		padding-bottom:1em;
+	}
+
+	p{
+		font-size: 16px;
+	}
+/* =================Logo======================*/
+
+.logo{}
+
+/* =============Copyright ===================*/
+.copyright{
+	font-size: 8px;
+}
+/* ================ header==================== */ 
+
+	body > header {
+        /*background-color:#DCDCCE;*/
+		background-color:#D6D2D2;
+	}
+
+
+/*-----------------navbar---------------------*/
+
+	.tm_navbar {    	/* Formato del fondo pestanas */
+		/*position: relative;
+		padding: 6px 0 6px;
+		margin: 0 auto^*/
+		background: #F5F5F3; /*color bloque buttons*/
+		/*border: 50px;*/
+	}
+
+
+	.tm_navbar .nav li a {
+		text-decoration: none;
+		color: #000;     /* Color letras sin pulsar */
+		font-family: 'Georgia', serif;
+		font-size: 18px;
+		line-height: 14px;
+		background: transparent;
+	}
+
+	.tm_navbar .nav li a:hover, .tm_navbar .nav > a, .tm_navbar .nav  >  a:hover {  /*Referencia a pestanas al pulsar */
+		color: blue;
+		text-decoration: underline;
+	}
+
+	.white-container {
+		/*display: flex;*/
+	    background-color: #fff;
+	    /*border:1px solid blue;*/
+	    color: #35373a;
+	    padding-top: 1em;
+	    padding-bottom: 1em;
+	    border-radius: 20px;
+	    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+/*============ Galeria =====================*/
+.gallery-container {
+	background-color: #fff;
+	color: #35373a;
+	padding-top: 1em;
+	border-radius: 20px;
+	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-img {
+	width: 100%;
+	margin-bottom: 30px;
+	transition: 0.2s ease-in-out;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.gallery-img:hover {
+	transform: scale(1.05);
+	box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.gallery-img {
+	border-radius: 4px;
+}
+
+
+
+/*============Iconos redes sociales=========*/
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.social-network a.iconInstagram:hover {
+	background-color: #F56505;
+}
+
+.social-network a.iconFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.iconTwitter:hover {
+	background-color:#33ccff;
+}
+
+.social-network a.iconCamera:hover {
+	background-color:#9CF91E;
+}
+
+
+.social-network a.iconInstagram:hover i, 
+.social-network a.iconFacebook:hover i, 
+.social-network a.iconTwitter:hover i,
+.social-network a.iconCamera:hover i{
+	color:#fff;
+}
+
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+	background-color: #D6D2D2;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+
+
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+}
+
+/* =====================FOOTER===========================*/
+
+/*==============Media query=============================*/
+
+/* MĆ³vil -481 */
+/* Tabletas +480-671 */
+@media only screen and (max-width:670px){
+}
+
+/* Tabletas +670-769 */
+/* Pantalla +768-830 */
+@media only screen and (min-width:671px) and (max-width:830px){
+}
+
+/* Pantalla +830-977 */
+@media only screen and (min-width:831px) and (max-width:976px){
+}
+
+/* Pantalla +977 */
+@media only screen and (min-width:977px){
+}
